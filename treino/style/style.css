@@ -1,0 +1,6 @@
+@charset "UTF-8";
+
+body {
+    background: white url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSNeMECXoMCyB9utRQ9sX9xvBriz_LXHb_2-A&usqp=CAU) left center no-repeat fixed;
+    background-image: cover; 
+}
