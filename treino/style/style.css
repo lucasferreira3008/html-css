@@ -1,6 +1,93 @@
 @charset "UTF-8";
 
-body {
-    background: white url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSNeMECXoMCyB9utRQ9sX9xvBriz_LXHb_2-A&usqp=CAU) left center no-repeat fixed;
-    background-image: cover; 
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
+* {
+    padding: 0px;
+    margin: 0px;
 }
+
+body {
+    background-color: rgba(255, 166, 0, 0.507);
+}
+
+h1 {
+    font-family: 'Playfair Display', serif;
+}
+header {
+    background-color: white;
+    padding: 10px;
+}
+
+header h1 {
+    text-align: center;
+    color: black;
+    margin-top: 20px;
+    
+}
+
+header p {
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+
+
+main {
+    background-color: white;
+    margin: 10px 0px;
+    padding: 20px;
+}
+
+main section h1 {
+    margin-bottom: 10px;
+    font-size: 2em;
+    text-align: center;
+}
+
+main section p {
+    text-align: justify;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+main section p a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    background-color: rgba(255, 166, 0, 0.466);
+    padding: 3px;
+    border-radius: 10px;
+}
+
+main section p a:hover {
+    text-decoration: underline;
+}
+
+section.imagem {
+    background-attachment: fixed;
+    background-size: cover;
+    background-color: black;
+}
+
+section.imagem > h1 {
+    color: white;
+    background-color: rgba(0, 0, 0, 0.479);
+}
+
+section.imagem > p {
+    color: white;
+    background-color: rgba(0, 0, 0, 0.479);
+}
+
+section#img01{
+    background-image: url('../imagens/csm_Basquete_o_esporte_importado_pelo_Mackenzie_2e81f9117b.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+footer {
+    background-color: white;
+    text-align: center;
+    padding: 10px;
+}
+
